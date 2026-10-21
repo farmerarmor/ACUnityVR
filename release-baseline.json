@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "baseline": "r29 first portable build with F10 stop removed",
+  "abi": 9,
+  "experiment": 76,
+  "supportedExecutableSHA256": "748abdc6456397fe7d8080f975f2a5ed3123bce548e7bf1c68b23f47e8b27e40",
+  "sha256": {
+    "ACUnityVRNative.dll": "2c86c1548fc8534afee2fc41625e37f5d329dfe601373c119044c3289d36e9de",
+    "ACUnityShaderRegistry.dll": "c375e0c0b38772185c89e3739796d0009e32010c3f8817cca0e452fbbfb50a06",
+    "ACUnityVRHost.exe": "179516925e230a9a6ca5ed9b3e5adb63cd3f7ebe471ad072e44309cc10525a29",
+    "ACUnityProbeLoader.exe": "96be4c3c6561279dcf82f72a12a2d44cd659fa4cee0383769aed59940e445a21"
+  },
+  "limitations": [
+    "Head-motion-linked dark shading remains unresolved",
+    "Changing graphics settings during VR has caused game/PC freezes",
+    "Full-game stability and all cutscenes/areas unverified"
+  ],
+  "validation": "Original r29 binary pair restored and automatically active in both eyes; clean source native/registry/host build passed. Loader reused unchanged."
+}
